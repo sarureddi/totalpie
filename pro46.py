@@ -1,13 +1,13 @@
-u=int(input())
-v=list(map(int,input().split()))
-a=0
-b=0
-v.sort(reverse=True)
-for i in v:
-  v=a+i
-  if b>v:
-    a=v
+u1=int(input())
+v1=list(map(int,input().split()))
+a1=0
+b1=0
+v1.sort(reverse=True)
+for i1 in v1:
+  v1=a1+i1
+  if b1>v1:
+    a1=v1
   else:
-    a=b
-    b=v
-print(a,b)
+    a1=b1
+    b1=v1
+print(a1,b1)
